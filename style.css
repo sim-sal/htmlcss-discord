@@ -1,0 +1,137 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+.main-nav{
+    width: 80%;
+    margin: auto;
+}
+
+#link-navigazione{
+    width: 80%;
+}
+
+.jumbotron{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.flex-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5%;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgage{
+    width: 80%;
+}
+
+.space{
+    width: 5%;
+}
+
+.space-column{
+    height: 5%;
+}
+
+.text{
+    width: 20%;
+}
+
+.column .text{
+    width: 50%;
+}
+
+.info{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.lista{
+    padding-top: 5%;
+    width: 5%;
+}
+
+h2 , h5{
+  color: blueviolet;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* regole DEBUG */
+header{
+    background-color: rgb(37,94,233);
+    min-height: 500px;
+}
+
+.main-nav{
+    background-color: rgb(0, 0, 161);
+    min-height: 80px;
+}
+
+.jumbotron{
+    background-color: rgb(139, 168, 240);
+    min-height: 250px;
+}
+
+.flex-container{
+    background-color: rgb(207, 112, 112);
+    height: 500px;
+}
+
+.reverse{
+    background-color: rgb(223, 175, 175);
+}
+
+.column{
+    background-color: rgb(223, 175, 175);
+    height: 800px;
+}
+
+.info{
+    height: 500px;
+    background-color: rgb(35,39,42);
+}
