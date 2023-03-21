@@ -9,10 +9,23 @@ body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+/* regole header */
 header{
     margin-bottom: 30px;
     background-image: url(img/jumbo.png);
     background-size: cover;
+}
+
+.logo{
+    
+}
+
+.info-list{
+    display: flex;
+    gap: 40px;
+    line-height: 60px;
+    color: white;
+    text-align: center;     
 }
 
 .titolo-header{
@@ -21,6 +34,8 @@ header{
 }
 
 .main-nav{
+    display: flex;
+    justify-content: space-between;
     width: 80%;
     margin: auto;
 }
@@ -46,18 +61,31 @@ header{
 .toggle{
     padding: 2%;
     margin: 1%;
-    font-size: 18px;
     border-radius: 25px;
+}
+
+.small-toggle{
+    padding: 1%;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+.accedi{
+    float: right;
+    background-color: white;
+    color:  rgb(35,39,42);
 }
 
 .uno{
     color: rgb(35,39,42);
     background-color: white;
+    font-size: 18px;
 }
 
 .due{
     color: white;
     background-color: rgb(35,39,42);
+    font-size: 18px;
 }
 /* fine regole toggle */
 
@@ -145,10 +173,10 @@ header{
     min-height: 500px;
 }
 
-.main-nav{
+/* .main-nav{
     background-color: rgb(0, 0, 161);
-    min-height: 80px;
-}
+    min-height: 50px;
+} */
 
 /* .jumbotron{
     background-color: rgb(139, 168, 240);
