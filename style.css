@@ -5,9 +5,19 @@
     box-sizing: border-box;
 }
 
-.header{
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header{
     margin-bottom: 30px;
-    background-image: url(../htmlcss-discord/img/jumbo.png);
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+}
+
+.titolo-header{
+    font-size: 40px;
+    padding-bottom: 5%;
 }
 
 .main-nav{
@@ -20,11 +30,38 @@
 }
 
 .jumbotron{
-    width: 50%;
+    width: 45%;
     margin: auto;
     margin-top: 5%;
+    padding-top: 2%;
+    color: white;
+    text-align: center;
 }
 
+.sezione-toggle{
+    margin-top: 4%;
+}
+
+/* inizio regole toggle */
+.toggle{
+    padding: 2%;
+    margin: 1%;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.uno{
+    color: rgb(35,39,42);
+    background-color: white;
+}
+
+.due{
+    color: white;
+    background-color: rgb(35,39,42);
+}
+/* fine regole toggle */
+
+/* inizio regole main */
 .flex-container{
     margin-top: 50px;
     display: flex;
@@ -113,10 +150,10 @@ header{
     min-height: 80px;
 }
 
-.jumbotron{
+/* .jumbotron{
     background-color: rgb(139, 168, 240);
     min-height: 250px;
-}
+} */
 
 .flex-container{
     background-color: rgb(207, 112, 112);
