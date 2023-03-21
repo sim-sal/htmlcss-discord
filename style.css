@@ -16,10 +16,6 @@ header{
     background-size: cover;
 }
 
-.logo{
-    
-}
-
 .info-list{
     display: flex;
     gap: 40px;
@@ -97,6 +93,7 @@ header{
     align-items: center;
     padding: 20px;
     gap: 5%;
+    color:rgb(35,39,42);
 }
 
 .reverse{
@@ -140,7 +137,7 @@ header{
 }
 
 h2 , h5{
-  color: blueviolet;  
+  color: rgb(112,135,214);  
 }
 
 
