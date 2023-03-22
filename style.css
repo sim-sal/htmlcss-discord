@@ -11,7 +11,7 @@ body{
 
 /* regole header */
 header{
-    margin-bottom: 30px;
+    min-height: 500px;
     background-image: url(img/jumbo.png);
     background-size: cover;
 }
@@ -94,28 +94,26 @@ header{
 
 /* inizio regole main */
 .flex-container{
-    width: 70%;
-    margin-top: 50px;
+    margin-top: 5%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    gap: 5%;
     color:rgb(35,39,42);
 }
 
 .reverse{
     flex-direction: row-reverse;
+    background-color: rgb(246,246,246);
 }
 
 .column{
     flex-direction: column;
     justify-content: center;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(246,246,246);
 }
-
-/* .imgage{
-    width: 80%;
-}*/
 
 .space{
     width: 5%;
@@ -173,10 +171,10 @@ h2 , h5{
 
 
 /* regole DEBUG */
-header{
+/* header{
     background-color: rgb(37,94,233);
     min-height: 500px;
-}
+} */
 
 /* .main-nav{
     background-color: rgb(0, 0, 161);
@@ -188,19 +186,18 @@ header{
     min-height: 250px;
 } */
 
-.flex-container{
+/* .flex-container{
     background-color: rgb(207, 112, 112);
-    height: 500px;
 }
 
 .reverse{
     background-color: rgb(223, 175, 175);
-}
+} */
 
-.column{
+/* .column{
     background-color: rgb(223, 175, 175);
     height: 800px;
-}
+} */
 
 .info{
     height: 500px;
